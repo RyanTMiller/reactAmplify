@@ -12,6 +12,9 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		5A36CFC6D068446ABE8B83D8 /* Cera_Pro_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3936BB649B04B33A123A4EB /* Cera_Pro_Bold.otf */; };
+		44C2ED14DD2B49608C97806B /* Cera_Pro_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D0433F3A4F4E7F83B0F35F /* Cera_Pro_Light.otf */; };
+		D9AD33F5072347CA87DCCC3E /* Cera_Pro_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 426ED165198C4D818B43833A /* Cera_Pro_Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactAmplify/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactAmplify/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D3936BB649B04B33A123A4EB /* Cera_Pro_Bold.otf */ = {isa = PBXFileReference; name = "Cera_Pro_Bold.otf"; path = "../assets/fonts/Cera_Pro_Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14D0433F3A4F4E7F83B0F35F /* Cera_Pro_Light.otf */ = {isa = PBXFileReference; name = "Cera_Pro_Light.otf"; path = "../assets/fonts/Cera_Pro_Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		426ED165198C4D818B43833A /* Cera_Pro_Medium.otf */ = {isa = PBXFileReference; name = "Cera_Pro_Medium.otf"; path = "../assets/fonts/Cera_Pro_Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 				00E356EF1AD99517003FC87E /* reactAmplifyTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				B0195312D6DD405A930CB76D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +130,17 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		B0195312D6DD405A930CB76D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				D3936BB649B04B33A123A4EB /* Cera_Pro_Bold.otf */,
+				14D0433F3A4F4E7F83B0F35F /* Cera_Pro_Light.otf */,
+				426ED165198C4D818B43833A /* Cera_Pro_Medium.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +232,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5A36CFC6D068446ABE8B83D8 /* Cera_Pro_Bold.otf in Resources */,
+				44C2ED14DD2B49608C97806B /* Cera_Pro_Light.otf in Resources */,
+				D9AD33F5072347CA87DCCC3E /* Cera_Pro_Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
